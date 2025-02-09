@@ -27,17 +27,13 @@ git clone https://github.com/yourusername/yolo-object-tracking.git
 cd yolo-object-tracking
 ```
 
-### **3️⃣ Import YOLOv8 Model**
-Importing the pre-trained YOLOv8 model:
+### **3️⃣ Download YOLOv8 Model**
+Download the pre-trained YOLOv8 model:
 ```bash
-from ultralytics import YOLO
+wget https://github.com/ultralytics/assets/releases/download/v8/yolov8s.pt
 ```
 
 ## 🎯 Usage
-### **Run Object Tracking**
-```bash
-python yolo_tracking.py
-```
 
 ### **Run in Jupyter Notebook**
 1. Open Jupyter Notebook:
@@ -56,3 +52,4 @@ python yolo_tracking.py
 - **Webcam not opening?** Ensure it's not being used by another program.
 - **Performance issues?** Reduce image resolution or use a smaller YOLO model.
 - **Module not found?** Run `pip install -r requirements.txt` to install dependencies.
+
