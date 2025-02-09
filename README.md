@@ -1,6 +1,6 @@
 # Real_Time_Object_Tracking
 
-## YOLOv8 Real-Time Object Tracking
+## Object Tracking Using YOLOv8 Model
 
 
 ## 📌 Project Description
