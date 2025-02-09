@@ -23,12 +23,12 @@ pip install ultralytics opencv-python numpy
 
 ### **2️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/yolo-object-tracking.git
-cd yolo-object-tracking
+git clone https://github.com/suryanattzz/Real_Time_Object_Tracking
+cd Real_Time_Object_Tracking
 ```
 
 ### **3️⃣ Download YOLOv8 Model**
-Download the pre-trained YOLOv8 model:
+The pre-trained YOLOv8 model is already included in the repository. If you need to download it manually, use:
 ```bash
 wget https://github.com/ultralytics/assets/releases/download/v8/yolov8s.pt
 ```
@@ -40,7 +40,7 @@ wget https://github.com/ultralytics/assets/releases/download/v8/yolov8s.pt
    ```bash
    jupyter notebook
    ```
-2. Open `yolo_tracking.ipynb` and run the cells step by step.
+2. Open `yolo_object_tracking.ipynb` and run the cells step by step.
 
 
 ## 📌 Customization
